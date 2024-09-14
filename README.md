@@ -6,14 +6,6 @@ This project is a crawler designed to scrape the **Magiran** website and collect
 
 **Laravel API**: The Laravel backend manages the scraped data. The models for Author and Paper define relationships and handle the CRUD operations for the database. The crawler output can be integrated into the Laravel API to store the scraped information into a database.
 
-Features
-
-Requirements
-Python 3.x (for the crawler)
-Laravel (for the API)
-MySQL or SQLite (for database)
-Composer (for Laravel dependencies)
-
 ## Features
 - Scrapes article information (title, authors, keywords, language, etc.).
 - Stores the scraped data into a `json.json` file.
