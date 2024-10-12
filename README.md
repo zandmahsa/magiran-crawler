@@ -1,8 +1,8 @@
-# Crawler & Laravel API
+# Crawler(scraper) & Laravel API
 
 This project is a crawler designed to scrape the **Magiran** website and collect information about **professors from Qom University**. The project consists of two main components:
 
-**Crawler (Python)**: It scrapes the author pages, extracts metadata such as article titles, keywords, language, and publication information, and stores the extracted data into a json.json file. The crawler leverages requests and BeautifulSoup to fetch and parse HTML content.
+**Crawler-Scraper (Python)**: It scrapes the author pages, extracts metadata such as article titles, keywords, language, and publication information, and stores the extracted data into a json.json file. The crawler leverages requests and BeautifulSoup to fetch and parse HTML content.
 
 **Laravel API**: The Laravel backend manages the scraped data. The models for Author and Paper define relationships and handle the CRUD operations for the database. The crawler output can be integrated into the Laravel API to store the scraped information into a database.
 
